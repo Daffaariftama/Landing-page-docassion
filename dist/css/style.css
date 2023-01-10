@@ -1,0 +1,128 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    scroll-behavior:smooth ;
+}
+
+
+/* navbar */
+.navbar{
+    transition: all 0.7s ease-out;
+}
+
+.navbar i:hover{
+    color: #0d6efd !important; 
+    cursor: pointer;
+}
+
+.scrolling-active{
+    background-color: #0d6efd;
+}
+.button-active{
+    background-color: #0d6efd;
+}
+/* navbar  akhir*/
+
+
+
+/* hero */
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../../assets/img/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero h1{
+    --animate-delay: 0.7s;
+}
+.hero p{
+    --animate-delay: 1.2s;
+}
+.hero button{
+    --animate-delay: 1.7s;
+}
+/* akhir hero */
+
+
+/* about */
+.about .row .col:nth-child(1){
+    background-color: #222;
+}
+
+
+/*  akhir about */
+
+
+/* project */
+.project{
+    padding-top: 100px;
+}
+
+.project img{
+    height: 250px;
+}
+/* akhir project */
+
+/* service */
+.service{
+    padding-top: 100px;
+}
+.service img{
+    width: 250px;
+    height: 400px;
+}
+
+.service h5{
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.service i{
+    font-size: 30px;
+    color: green;
+    
+}
+
+@media screen and (max-width:1200px) {
+    .service img{
+        width: 220px;
+    }
+}
+@media screen and (max-width:475px) {
+    .service h5{
+        font-size: 16px;
+    }
+}
+/* akhir service */
+
+/* faq */
+.faq{
+    padding-top: 100px;
+}
+.faq .accordion{
+    --bs-accordion-bg:#e9edc9;
+}
+.faq .accordion .accordion-button:focus{
+    box-shadow: none;
+}
+/* akhir faq */
+
+
+/* footer */
+.footer{
+    min-height: 60vh;
+    background-color: #15181f ;
+    margin-top: 150px;
+}
+
+.footer .copyright{
+    padding-top: 100px;
+}
+/* akhirfooter */
