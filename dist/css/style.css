@@ -65,7 +65,14 @@ body{
 
 .project img{
     height: 250px;
+    cursor: pointer;
 }
+
+.project h4{
+    cursor: pointer;
+}
+
+
 /* akhir project */
 
 /* service */
