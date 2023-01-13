@@ -1,0 +1,27 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    scroll-behavior:smooth ;
+    scroll-x: none;
+}
+
+.breadcrumb{
+    margin-top: 45px;
+}
+
+
+
+.hero .kotak{
+    border-radius: 10px;
+    width: 100%;
+    height: 220px;
+    background-image: url(img/nf.jpeg);
+    background-size: cover;
+    background-position: center;
+}
